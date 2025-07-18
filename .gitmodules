@@ -1,0 +1,13 @@
+
+[submodule "services/briefMicro"]
+	path = services/briefMicro
+	url = https://github.com/bassmaelabassi/A-G-C2.git
+[submodule "services/competenceMicro"]
+	path = services/competenceMicro
+	url = https://github.com/LAKHMAISS-CHAIMA/competence-microservice.git
+[submodule "services/authMicro"]
+	path = services/authMicro
+	url = https://github.com/LAKHMAISS-CHAIMA/API-Gateway.git
+[submodule "services/apprenant-Micro"]
+	path = services/apprenant-Micro
+	url = https://github.com/LAKHMAISS-CHAIMA/comp-tence-2.git
