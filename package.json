@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"npm run dev --prefix services/apprenant-Micro/microcervices/apprenant-service\" \"npm run dev --prefix services/briefMicro/backend\" \"npm run dev --prefix services/authMicro/auth-service\" \"npm run dev --prefix services/competenceMicro/backend\" \"nodemon server.js\"",
+    "dev": "concurrently \"npm run dev --prefix services/apprenant-Micro/microcervices/apprenant-service\" \"npm run dev --prefix services/briefMicro/brief\" \"npm run dev --prefix services/authMicro/auth-service\" \"npm run dev --prefix services/competenceMicro/backend\" \"nodemon server.js\"",
     "start": "node server.js"
   },
   "keywords": [],
@@ -19,7 +19,11 @@
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
+    "http-proxy-middleware": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
